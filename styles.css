@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #EEEEEE;
+  }
+  header {
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: #EEEEEE;
+    
+  }
+  @media {
+    
+  }
+  img {
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 35%;
+    float: left;
+  }
+  #nav-bar {
+    float: right;
+  }
+  .nav-content {
+    display: flex;
+    list-style: none;
+  }
+  
+  #features {
+    padding-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .features-div {
+    display: flex;
+    flex-direction: column;
+  }
+  #form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  #email {
+    padding-left: 5px;
+    width: 80%;
+    height: 3vh;
+  }
+  #submit {
+    background-color: rgb(241, 196, 15);
+    border: none;
+    width: 40%;
+    height: 4vh;
+  }
+  .how-it-works-div {
+    margin-left: 10vw;
+    margin-right: 5vw;
+    padding-left: 5%;
+    width: 80%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+  }
+  .how-it-works-info {
+    margin: none;
+    padding-left: 5vw;
+  }
+  .icon {
+    width: 150px;
+    color: rgb(255, 140, 0)
+  }
+  .materials {
+    margin-left: -15px;
+  }
+  .video {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #video {
+    width: 560px;
+    height: 315px;
+  }
+  
+  /* media query to change this based on view width */
+  #pricing {
+    display: flex;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    
+  }
+  .price {
+    border: 1px solid black;
+    margin-bottom: 5vh;
+    width: 31%;
+  }
+  .instrument {
+    padding: 2vh;
+    background-color: #DDDDDD;  
+  }
+  .price h1,p,input {
+    margin: 2vh;
+  }
+  .price input {
+    border: none;
+    background-color: rgb(241, 196, 15);
+    width: 20vh;
+    height: 8vh;
+  }
+  @media (max-width: 800px) {
+    #pricing {
+      width: auto;
+      flex-direction: column;
+      align-items: center;
+    }
+    .instrument {
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
+  footer ul {
+    display: flex;
+    margin: 10px;
+    list-style: none;
+  }
+  .test {
+    margin: 15px;
+    display: flex;  
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+  }
+  
+  footer  ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  footer  ul li {
+    padding: 0 10px;
+  }
+  footer  span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
